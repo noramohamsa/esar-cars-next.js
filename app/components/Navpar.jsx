@@ -53,10 +53,10 @@ export default function Navbar() {
       {/* قائمة الموبايل */}
       {open && (
         <div className="md:hidden bg-white shadow-md px-6 py-4 flex flex-col gap-4 text-gray-700 font-medium" dir="rtl">
-          <Link href="/" onClick={() => setOpen(false)}>الرئيسية</Link>
-          <Link href="/cars" onClick={() => setOpen(false)}>السيارات</Link>
-          <Link href="/offers" onClick={() => setOpen(false)}>العروض</Link>
-          <Link href="/about" onClick={() => setOpen(false)}>من نحن</Link>
+          <Link href="/" onClick={() => setOpen(false)}>الصفحة الرئيسيه</Link>
+          <Link href="/cars" onClick={() => setOpen(false)}>عن الشركة</Link>
+          <Link href="/offers" onClick={() => setOpen(false)}>خدماتنا</Link>
+          <Link href="/about" onClick={() => setOpen(false)}>تصبح شريكا</Link>
           <Link href="/contact" onClick={() => setOpen(false)}>تواصل معنا</Link>
 
           <Link
